@@ -1,0 +1,5 @@
+../Core/Src/main.c:3:6:gpio_uart_init	4	static
+../Core/Src/main.c:12:6:uart3_init	4	static
+../Core/Src/main.c:22:6:dma_rx_init	4	static
+../Core/Src/main.c:36:6:dma_tx_init	4	static
+../Core/Src/main.c:48:5:main	8	static

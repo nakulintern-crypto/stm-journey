@@ -1,0 +1,9 @@
+../Core/Src/main.c:15:5:main	2
+../Core/Src/main.c:43:6:Clock_Init	3
+../Core/Src/main.c:59:6:USART3_GPIO_Init	1
+../Core/Src/main.c:72:6:USART3_Init	1
+../Core/Src/main.c:83:6:USART3_WriteChar	2
+../Core/Src/main.c:89:6:USART3_WriteString	2
+../Core/Src/main.c:95:6:I2C1_GPIO_Init	1
+../Core/Src/main.c:118:6:I2C1_Slave_Init	3
+../Core/Src/main.c:136:9:I2C1_Slave_ReadByte	9

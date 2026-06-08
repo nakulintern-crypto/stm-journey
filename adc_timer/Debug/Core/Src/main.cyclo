@@ -1,0 +1,9 @@
+../Core/Src/main.c:5:6:gpio_init	1
+../Core/Src/main.c:14:6:adc_init	1
+../Core/Src/main.c:22:10:adc_read	2
+../Core/Src/main.c:28:6:tim2_init	1
+../Core/Src/main.c:36:6:USART3_GPIO_Init	1
+../Core/Src/main.c:47:6:USART3_Init	1
+../Core/Src/main.c:58:6:USART3_WriteChar	2
+../Core/Src/main.c:65:6:USART3_WriteString	2
+../Core/Src/main.c:72:5:main	2

@@ -1,0 +1,9 @@
+../Core/Src/main.c:5:6:gpio_init	4	static
+../Core/Src/main.c:14:6:adc_init	4	static
+../Core/Src/main.c:22:10:adc_read	4	static
+../Core/Src/main.c:28:6:tim2_init	4	static
+../Core/Src/main.c:36:6:USART3_GPIO_Init	4	static
+../Core/Src/main.c:47:6:USART3_Init	4	static
+../Core/Src/main.c:58:6:USART3_WriteChar	16	static
+../Core/Src/main.c:65:6:USART3_WriteString	16	static
+../Core/Src/main.c:72:5:main	8	static

@@ -1,0 +1,13 @@
+../Drivers/CMSIS/Include/core_cm4.h:1684:22:__NVIC_EnableIRQ	2
+../Core/Src/main.c:15:6:gpio_init	1
+../Core/Src/main.c:26:6:uart_init	1
+../Core/Src/main.c:34:6:sendchar	2
+../Core/Src/main.c:40:6:sendstring	2
+../Core/Src/main.c:48:6:adc_init	1
+../Core/Src/main.c:59:6:ADC_IRQHandler	2
+../Core/Src/main.c:68:5:main	1
+../Core/Src/main.c:99:6:SystemClock_Config	3
+../Core/Src/main.c:142:13:MX_USART3_UART_Init	2
+../Core/Src/main.c:169:13:MX_USB_OTG_FS_PCD_Init	2
+../Core/Src/main.c:204:13:MX_GPIO_Init	1
+../Core/Src/main.c:264:6:Error_Handler	1

@@ -1,0 +1,12 @@
+../Core/Src/main.c:15:6:gpio_uart_init	1
+../Core/Src/main.c:36:6:uart3_init	1
+../Core/Src/main.c:52:6:sendchar	2
+../Core/Src/main.c:58:6:sendstring	2
+../Core/Src/main.c:65:6:receivechar	2
+../Core/Src/main.c:71:6:dma_init	2
+../Core/Src/main.c:99:5:main	1
+../Core/Src/main.c:129:6:SystemClock_Config	3
+../Core/Src/main.c:172:13:MX_USART3_UART_Init	2
+../Core/Src/main.c:199:13:MX_USB_OTG_FS_PCD_Init	2
+../Core/Src/main.c:234:13:MX_GPIO_Init	1
+../Core/Src/main.c:294:6:Error_Handler	1
