@@ -1,0 +1,494 @@
+The target system is: Generic - 4.4.99 - arm
+The host system is: Linux - 6.8.0-124-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/vvdn/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/vvdn/zephyrproject/apps/hello/build/CMakeFiles/3.22.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/vvdn/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/vvdn/zephyrproject/apps/hello/build/CMakeFiles/3.22.1/CompilerIdCXX/a.out"
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+arm-zephyr-eabi-gcc (Zephyr SDK 1.0.1) 14.3.0
+Copyright (C) 2024 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/vvdn/zephyrproject/apps/hello/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_aa8aa && [1/2] Building C object CMakeFiles/cmTC_aa8aa.dir/src.c.obj
+[2/2] Linking C executable cmTC_aa8aa
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wall_C__nostartfiles__nostdlib__isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/vvdn/zephyrproject/apps/hello/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_5fe6b && [1/2] Building C object CMakeFiles/cmTC_5fe6b.dir/src.c.obj
+[2/2] Linking C executable cmTC_5fe6b
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wformat__Wformat_security_C__nostartfiles__nostdlib__isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/vvdn/zephyrproject/apps/hello/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_2864b && [1/2] Building C object CMakeFiles/cmTC_2864b.dir/src.c.obj
+[2/2] Linking C executable cmTC_2864b
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wformat__Wformat_zero_length_C__nostartfiles__nostdlib__isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/vvdn/zephyrproject/apps/hello/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_47757 && [1/2] Building C object CMakeFiles/cmTC_47757.dir/src.c.obj
+[2/2] Linking C executable cmTC_47757
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wdouble_promotion_C__nostartfiles__nostdlib__isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/vvdn/zephyrproject/apps/hello/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_b9604 && [1/2] Building C object CMakeFiles/cmTC_b9604.dir/src.c.obj
+[2/2] Linking C executable cmTC_b9604
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wpointer_sign_C__nostartfiles__nostdlib__isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/vvdn/zephyrproject/apps/hello/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_62aeb && [1/2] Building C object CMakeFiles/cmTC_62aeb.dir/src.c.obj
+[2/2] Linking C executable cmTC_62aeb
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wpointer_arith_C__nostartfiles__nostdlib__isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/vvdn/zephyrproject/apps/hello/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_b13a7 && [1/2] Building C object CMakeFiles/cmTC_b13a7.dir/src.c.obj
+[2/2] Linking C executable cmTC_b13a7
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wmisleading_indentation_C__nostartfiles__nostdlib__isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/vvdn/zephyrproject/apps/hello/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_7753b && [1/2] Building C object CMakeFiles/cmTC_7753b.dir/src.c.obj
+[2/2] Linking C executable cmTC_7753b
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wexpansion_to_defined_C__nostartfiles__nostdlib__isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/vvdn/zephyrproject/apps/hello/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_84eaf && [1/2] Building C object CMakeFiles/cmTC_84eaf.dir/src.c.obj
+[2/2] Linking C executable cmTC_84eaf
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wlogical_op_C__nostartfiles__nostdlib__isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/vvdn/zephyrproject/apps/hello/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_1a5fb && [1/2] Building C object CMakeFiles/cmTC_1a5fb.dir/src.c.obj
+[2/2] Linking C executable cmTC_1a5fb
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wmissing_field_initializers_C__nostartfiles__nostdlib__isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/vvdn/zephyrproject/apps/hello/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_92c2c && [1/2] Building C object CMakeFiles/cmTC_92c2c.dir/src.c.obj
+[2/2] Linking C executable cmTC_92c2c
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wpacked_bitfield_compat_C__nostartfiles__nostdlib__isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/vvdn/zephyrproject/apps/hello/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_08fc2 && [1/2] Building C object CMakeFiles/cmTC_08fc2.dir/src.c.obj
+[2/2] Linking C executable cmTC_08fc2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wvla_C__nostartfiles__nostdlib__isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/vvdn/zephyrproject/apps/hello/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_591ed && [1/2] Building C object CMakeFiles/cmTC_591ed.dir/src.c.obj
+[2/2] Linking C executable cmTC_591ed
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wunused_but_set_variable_C__nostartfiles__nostdlib__isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/vvdn/zephyrproject/apps/hello/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_4172e && [1/2] Building C object CMakeFiles/cmTC_4172e.dir/src.c.obj
+[2/2] Linking C executable cmTC_4172e
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Werror_implicit_int_C__nostartfiles__nostdlib__isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/vvdn/zephyrproject/apps/hello/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_c11de && [1/2] Building C object CMakeFiles/cmTC_c11de.dir/src.c.obj
+[2/2] Linking C executable cmTC_c11de
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_printf_return_value_C__nostartfiles__nostdlib__isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/vvdn/zephyrproject/apps/hello/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_61f5c && [1/2] Building C object CMakeFiles/cmTC_61f5c.dir/src.c.obj
+[2/2] Linking C executable cmTC_61f5c
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_mstack_protector_guard_global_C__nostartfiles__nostdlib__isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/vvdn/zephyrproject/apps/hello/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_06919 && [1/2] Building C object CMakeFiles/cmTC_06919.dir/src.c.obj
+[2/2] Linking C executable cmTC_06919
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fsanitize_undefined_C__nostartfiles__nostdlib__isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/vvdn/zephyrproject/apps/hello/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_b23f0 && [1/2] Building C object CMakeFiles/cmTC_b23f0.dir/src.c.obj
+[2/2] Linking C executable cmTC_b23f0
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fsanitize_undefined_trap_on_error_C__nostartfiles__nostdlib__isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/vvdn/zephyrproject/apps/hello/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_dfdba && [1/2] Building C object CMakeFiles/cmTC_dfdba.dir/src.c.obj
+[2/2] Linking C executable cmTC_dfdba
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_freestanding_C__nostartfiles__nostdlib__isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/vvdn/zephyrproject/apps/hello/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_a4090 && [1/2] Building C object CMakeFiles/cmTC_a4090.dir/src.c.obj
+[2/2] Linking C executable cmTC_a4090
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_ffreestanding_C__nostartfiles__nostdlib__isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/vvdn/zephyrproject/apps/hello/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_87cd9 && [1/2] Building C object CMakeFiles/cmTC_87cd9.dir/src.c.obj
+[2/2] Linking C executable cmTC_87cd9
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_gdwarf_4_C__nostartfiles__nostdlib__isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/vvdn/zephyrproject/apps/hello/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_939e8 && [1/2] Building C object CMakeFiles/cmTC_939e8.dir/src.c.obj
+[2/2] Linking C executable cmTC_939e8
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fdiagnostics_color_always_C__nostartfiles__nostdlib__isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/vvdn/zephyrproject/apps/hello/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_55038 && [1/2] Building C object CMakeFiles/cmTC_55038.dir/src.c.obj
+[2/2] Linking C executable cmTC_55038
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___gc_sections succeeded with the following output:
+Change Dir: /home/vvdn/zephyrproject/apps/hello/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_7f7a2 && [1/2] Building C object CMakeFiles/cmTC_7f7a2.dir/src.c.obj
+[2/2] Linking C executable cmTC_7f7a2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___build_id_none succeeded with the following output:
+Change Dir: /home/vvdn/zephyrproject/apps/hello/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_71159 && [1/2] Building C object CMakeFiles/cmTC_71159.dir/src.c.obj
+[2/2] Linking C executable cmTC_71159
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__nostdlib succeeded with the following output:
+Change Dir: /home/vvdn/zephyrproject/apps/hello/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_07251 && [1/2] Building C object CMakeFiles/cmTC_07251.dir/src.c.obj
+[2/2] Linking C executable cmTC_07251
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__static succeeded with the following output:
+Change Dir: /home/vvdn/zephyrproject/apps/hello/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_04640 && [1/2] Building C object CMakeFiles/cmTC_04640.dir/src.c.obj
+[2/2] Linking C executable cmTC_04640
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__znoexecstack succeeded with the following output:
+Change Dir: /home/vvdn/zephyrproject/apps/hello/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_deef1 && [1/2] Building C object CMakeFiles/cmTC_deef1.dir/src.c.obj
+[2/2] Linking C executable cmTC_deef1
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl__X succeeded with the following output:
+Change Dir: /home/vvdn/zephyrproject/apps/hello/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_a5894 && [1/2] Building C object CMakeFiles/cmTC_a5894.dir/src.c.obj
+[2/2] Linking C executable cmTC_a5894
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl__N succeeded with the following output:
+Change Dir: /home/vvdn/zephyrproject/apps/hello/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_ee31d && [1/2] Building C object CMakeFiles/cmTC_ee31d.dir/src.c.obj
+[2/2] Linking C executable cmTC_ee31d
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___orphan_handling_warn succeeded with the following output:
+Change Dir: /home/vvdn/zephyrproject/apps/hello/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_8c50f && [1/2] Building C object CMakeFiles/cmTC_8c50f.dir/src.c.obj
+[2/2] Linking C executable cmTC_8c50f
+/home/vvdn/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/14.3.0/../../../../arm-zephyr-eabi/bin/ld.bfd: warning: orphan section `.glue_7' from `linker stubs' being placed in section `.glue_7'
+/home/vvdn/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/14.3.0/../../../../arm-zephyr-eabi/bin/ld.bfd: warning: orphan section `.glue_7t' from `linker stubs' being placed in section `.glue_7t'
+/home/vvdn/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/14.3.0/../../../../arm-zephyr-eabi/bin/ld.bfd: warning: orphan section `.vfp11_veneer' from `linker stubs' being placed in section `.vfp11_veneer'
+/home/vvdn/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/14.3.0/../../../../arm-zephyr-eabi/bin/ld.bfd: warning: orphan section `.v4_bx' from `linker stubs' being placed in section `.v4_bx'
+/home/vvdn/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/14.3.0/../../../../arm-zephyr-eabi/bin/ld.bfd: warning: orphan section `.ARM.attributes' from `CMakeFiles/cmTC_8c50f.dir/src.c.obj' being placed in section `.ARM.attributes'
+/home/vvdn/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/14.3.0/../../../../arm-zephyr-eabi/bin/ld.bfd: warning: orphan section `.rel.iplt' from `CMakeFiles/cmTC_8c50f.dir/src.c.obj' being placed in section `.rel.dyn'
+/home/vvdn/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/14.3.0/../../../../arm-zephyr-eabi/bin/ld.bfd: warning: orphan section `.igot.plt' from `CMakeFiles/cmTC_8c50f.dir/src.c.obj' being placed in section `.igot.plt'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___print_memory_usage succeeded with the following output:
+Change Dir: /home/vvdn/zephyrproject/apps/hello/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_a6685 && [1/2] Building C object CMakeFiles/cmTC_a6685.dir/src.c.obj
+[2/2] Linking C executable cmTC_a6685
+Memory region         Used Size  Region Size  %age Used
+           flash:          32 B        64 KB      0.05%
+             ram:          4 KB        32 KB     12.50%
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__fsanitize_undefined succeeded with the following output:
+Change Dir: /home/vvdn/zephyrproject/apps/hello/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_068fa && [1/2] Building C object CMakeFiles/cmTC_068fa.dir/src.c.obj
+[2/2] Linking C executable cmTC_068fa
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__fsanitize_undefined_trap_on_error succeeded with the following output:
+Change Dir: /home/vvdn/zephyrproject/apps/hello/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_057b4 && [1/2] Building C object CMakeFiles/cmTC_057b4.dir/src.c.obj
+[2/2] Linking C executable cmTC_057b4
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___no_relax succeeded with the following output:
+Change Dir: /home/vvdn/zephyrproject/apps/hello/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_1b12b && [1/2] Building C object CMakeFiles/cmTC_1b12b.dir/src.c.obj
+[2/2] Linking C executable cmTC_1b12b
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___sort_common_descending succeeded with the following output:
+Change Dir: /home/vvdn/zephyrproject/apps/hello/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_5d275 && [1/2] Building C object CMakeFiles/cmTC_5d275.dir/src.c.obj
+[2/2] Linking C executable cmTC_5d275
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___sort_section_alignment succeeded with the following output:
+Change Dir: /home/vvdn/zephyrproject/apps/hello/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_d42d6 && [1/2] Building C object CMakeFiles/cmTC_d42d6.dir/src.c.obj
+[2/2] Linking C executable cmTC_d42d6
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__pg succeeded with the following output:
+Change Dir: /home/vvdn/zephyrproject/apps/hello/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_fa57e && [1/2] Building C object CMakeFiles/cmTC_fa57e.dir/src.c.obj
+[2/2] Linking C executable cmTC_fa57e
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/vvdn/zephyrproject/apps/hello/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_5afe0 && [1/2] Building C object CMakeFiles/cmTC_5afe0.dir/src.c.obj
+[2/2] Linking C executable cmTC_5afe0
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__mcpu_cortex_m4__mthumb__mabi_aapcs__mfp16_format_ieee__mtp_soft succeeded with the following output:
+Change Dir: /home/vvdn/zephyrproject/apps/hello/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_b96ff && [1/2] Building C object CMakeFiles/cmTC_b96ff.dir/src.c.obj
+[2/2] Linking C executable cmTC_b96ff
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_asynchronous_unwind_tables_C__nostartfiles__nostdlib__isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/vvdn/zephyrproject/apps/hello/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_e436f && [1/2] Building C object CMakeFiles/cmTC_e436f.dir/src.c.obj
+[2/2] Linking C executable cmTC_e436f
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_ftls_model_local_exec_C__nostartfiles__nostdlib__isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/vvdn/zephyrproject/apps/hello/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_305a4 && [1/2] Building C object CMakeFiles/cmTC_305a4.dir/src.c.obj
+[2/2] Linking C executable cmTC_305a4
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_reorder_functions_C__nostartfiles__nostdlib__isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/vvdn/zephyrproject/apps/hello/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_17593 && [1/2] Building C object CMakeFiles/cmTC_17593.dir/src.c.obj
+[2/2] Linking C executable cmTC_17593
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check__param_min_pagesize_0_C__nostartfiles__nostdlib__isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/vvdn/zephyrproject/apps/hello/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_17469 && [1/2] Building C object CMakeFiles/cmTC_17469.dir/src.c.obj
+[2/2] Linking C executable cmTC_17469
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_defer_pop_C__nostartfiles__nostdlib__isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/vvdn/zephyrproject/apps/hello/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_ce309 && [1/2] Building C object CMakeFiles/cmTC_ce309.dir/src.c.obj
+[2/2] Linking C executable cmTC_ce309
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fmacro_prefix_map__home_vvdn_zephyrproject_apps_hello_CMAKE_SOURCE_DIR_C__nostartfiles__nostdlib__isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/vvdn/zephyrproject/apps/hello/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_e94d0 && [1/2] Building C object CMakeFiles/cmTC_e94d0.dir/src.c.obj
+[2/2] Linking C executable cmTC_e94d0
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fmacro_prefix_map__home_vvdn_zephyrproject_zephyr_ZEPHYR_BASE_C__nostartfiles__nostdlib__isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/vvdn/zephyrproject/apps/hello/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_20148 && [1/2] Building C object CMakeFiles/cmTC_20148.dir/src.c.obj
+[2/2] Linking C executable cmTC_20148
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fmacro_prefix_map__home_vvdn_zephyrproject_WEST_TOPDIR_C__nostartfiles__nostdlib__isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/vvdn/zephyrproject/apps/hello/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_bb8bc && [1/2] Building C object CMakeFiles/cmTC_bb8bc.dir/src.c.obj
+[2/2] Linking C executable cmTC_bb8bc
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_ffunction_sections_C__nostartfiles__nostdlib__isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/vvdn/zephyrproject/apps/hello/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_33dbc && [1/2] Building C object CMakeFiles/cmTC_33dbc.dir/src.c.obj
+[2/2] Linking C executable cmTC_33dbc
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fdata_sections_C__nostartfiles__nostdlib__isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___isystem___home_vvdn_zephyr_sdk_1_0_1_gnu_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_14_3_0_include___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/vvdn/zephyrproject/apps/hello/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_2b716 && [1/2] Building C object CMakeFiles/cmTC_2b716.dir/src.c.obj
+[2/2] Linking C executable cmTC_2b716
+
+
+Source file was:
+int main(void) { return 0; }
