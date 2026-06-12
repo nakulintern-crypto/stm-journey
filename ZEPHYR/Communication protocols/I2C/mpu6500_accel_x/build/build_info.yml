@@ -1,0 +1,58 @@
+cmake:
+  application:
+    configuration-dir: '/home/vvdn/zephyrproject/apps/mpu6500_accel_x'
+    source-dir: '/home/vvdn/zephyrproject/apps/mpu6500_accel_x'
+  board:
+    name: 'nucleo_f446ze'
+    path:
+     - '/home/vvdn/zephyrproject/zephyr/boards/st/nucleo_f446ze'
+    qualifiers: 'stm32f446xx'
+    revision: ''
+  devicetree:
+    bindings-dirs:
+     - '/home/vvdn/zephyrproject/zephyr/dts/bindings'
+    files:
+     - '/home/vvdn/zephyrproject/zephyr/boards/st/nucleo_f446ze/nucleo_f446ze.dts'
+    include-dirs:
+     - '/home/vvdn/zephyrproject/modules/hal/ambiq/dts'
+     - '/home/vvdn/zephyrproject/modules/hal/atmel/include'
+     - '/home/vvdn/zephyrproject/modules/hal/bouffalolab/include'
+     - '/home/vvdn/zephyrproject/modules/hal/bouffalolab/include/zephyr'
+     - '/home/vvdn/zephyrproject/modules/hal/gigadevice/include'
+     - '/home/vvdn/zephyrproject/modules/hal/microchip/include'
+     - '/home/vvdn/zephyrproject/modules/hal/microchip/dts'
+     - '/home/vvdn/zephyrproject/modules/hal/nuvoton/dts'
+     - '/home/vvdn/zephyrproject/modules/hal/nxp/dts'
+     - '/home/vvdn/zephyrproject/modules/hal/stm32/dts'
+     - '/home/vvdn/zephyrproject/modules/hal/ti/dts'
+     - '/home/vvdn/zephyrproject/zephyr/include'
+     - '/home/vvdn/zephyrproject/zephyr/include/zephyr'
+     - '/home/vvdn/zephyrproject/zephyr/dts/common'
+     - '/home/vvdn/zephyrproject/zephyr/dts/vendor'
+     - '/home/vvdn/zephyrproject/zephyr/dts/rx'
+     - '/home/vvdn/zephyrproject/zephyr/dts/x86'
+     - '/home/vvdn/zephyrproject/zephyr/dts/xtensa'
+     - '/home/vvdn/zephyrproject/zephyr/dts/sparc'
+     - '/home/vvdn/zephyrproject/zephyr/dts/riscv'
+     - '/home/vvdn/zephyrproject/zephyr/dts/posix'
+     - '/home/vvdn/zephyrproject/zephyr/dts/arm64'
+     - '/home/vvdn/zephyrproject/zephyr/dts/arm'
+     - '/home/vvdn/zephyrproject/zephyr/dts/arc'
+     - '/home/vvdn/zephyrproject/zephyr/dts'
+  kconfig:
+    files:
+     - '/home/vvdn/zephyrproject/zephyr/boards/st/nucleo_f446ze/nucleo_f446ze_defconfig'
+     - '/home/vvdn/zephyrproject/apps/mpu6500_accel_x/prj.conf'
+    user-files:
+     - '/home/vvdn/zephyrproject/apps/mpu6500_accel_x/prj.conf'
+  toolchain:
+    name: 'zephyr'
+    path: '/home/vvdn/zephyr-sdk-1.0.1'
+  zephyr:
+    version: '4.4.99'
+    zephyr-base: '/home/vvdn/zephyrproject/zephyr'
+version: '0.1.0'
+west:
+  command: '/home/vvdn/zephyrproject/.venv/bin/west build -b nucleo_f446ze .'
+  topdir: '/home/vvdn/zephyrproject'
+  version: '1.5.0'
